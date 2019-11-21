@@ -34,6 +34,7 @@ use OCA\Talk\Collaboration\Resources\Listener as ResourceListener;
 use OCA\Talk\Config;
 use OCA\Talk\Files\Listener as FilesListener;
 use OCA\Talk\Files\TemplateLoader as FilesTemplateLoader;
+use OCA\Talk\Flow\Operation;
 use OCA\Talk\Listener;
 use OCA\Talk\Listener\RestrictStartingCalls as RestrictStartingCallsListener;
 use OCA\Talk\Manager;
@@ -98,6 +99,7 @@ class Application extends App {
 		CommandListener::register($dispatcher);
 		ResourceListener::register($dispatcher);
 		ChangelogListener::register($dispatcher);
+		Operation::register($dispatcher);
 
 		/** @var IEventDispatcher $newDispatcher */
 		$newDispatcher = $server->query(IEventDispatcher::class);
