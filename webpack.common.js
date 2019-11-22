@@ -11,7 +11,8 @@ module.exports = {
 		'admin/stun-server': path.join(__dirname, 'src', 'StunServerSettings.js'),
 		'admin/turn-server': path.join(__dirname, 'src', 'TurnServerSettings.js'),
 		'collections': path.join(__dirname, 'src', 'collections.js'),
-		'talk': path.join(__dirname, 'src', 'main.js')
+		'talk': path.join(__dirname, 'src', 'main.js'),
+		'flow': path.join(__dirname, 'src', 'flow.js')
 	},
 	output: {
 		path: path.resolve(__dirname, './js'),
