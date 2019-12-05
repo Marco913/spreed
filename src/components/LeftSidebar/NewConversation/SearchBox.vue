@@ -99,7 +99,7 @@ export default {
 @import '../../../assets/variables.scss';
 
 .app-navigation-search {
-	height: $top-bar-height;
+	flex: 1 0 auto;
 	position: sticky;
 	top: 0;
 	background-color: var(--color-main-background);
