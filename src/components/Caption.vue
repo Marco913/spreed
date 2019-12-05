@@ -41,7 +41,7 @@ export default {
 	.app-navigation-caption {
 		color: var(--color-primary);
 		line-height: 44px;
-
+		list-style-type:none;
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		box-shadow: none !important;
