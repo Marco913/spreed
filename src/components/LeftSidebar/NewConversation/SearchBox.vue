@@ -106,7 +106,6 @@ export default {
 	z-index: 1;
 	display: flex;
 	justify-content: center;
-	padding: 0 6px;
 	&__input {
 		align-self: center;
 		width: 100%;

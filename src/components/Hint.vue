@@ -47,7 +47,5 @@ export default {
 		box-shadow: none !important;
 		user-select: none;
 		pointer-events: none;
-
-		padding-left: 56px;
 	}
 </style>
